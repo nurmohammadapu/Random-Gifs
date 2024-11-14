@@ -7,10 +7,27 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Node modules
 node_modules
+
+# Build output
 dist
 dist-ssr
 *.local
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Vite and Tailwind configuration files
+vite.config.js
+tailwind.config.js
+postcss.config.js
+
+# Lock files (if not needed in the repo)
+package-lock.json
+yarn.lock
 
 # Editor directories and files
 .vscode/*
